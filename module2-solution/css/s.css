@@ -1,0 +1,64 @@
+/* Default styles for mobile first approach (767px and below) */
+body {
+    /* Mobile styles go here */
+    background-color: white;
+    font-size: 14px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+
+p{
+    background-color: rgb(186, 186, 186);
+}
+
+
+
+.card {
+    position: relative;
+    padding: 20px;
+    border: 2px solid #333;
+    width: fit-content;
+    margin: 20px auto; /* Center the card */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+.cardTitle > .Chicken{
+    
+    position: absolute;
+    top: -20px; 
+    right: 10px;
+    background-color: Pink;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 3px;
+
+}
+
+
+/* Tablet view (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        /* Tablet styles go here */
+        background-color: lightgreen;
+        font-size: 16px;
+    }
+}
+
+/* Desktop view (992px and above) */
+@media (min-width: 992px) {
+    body {
+        /* Desktop styles go here */
+        background-color: white;
+        font-size: 18px;
+    }
+}
