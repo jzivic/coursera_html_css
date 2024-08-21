@@ -22,40 +22,50 @@ div {
 
 }
 
-.Chicken{
-    background-color: pink;
-    margin-right: auto;
-
-    width: 10%;
-    text-align: right;
-    
-
-}
-
 .card {
     position: relative;
     padding: 30px;
     border: 2px solid #333;
     width: fit-content;
-    margin: 20px auto;
+    margin: 10px ;
     box-shadow: 2px 2px 5px black;
     font-family: Arial, sans-serif;
+    /* width: 30%; */
 
 }
 
 
 
-.cardTitle > .Chicken{
-    
+.cardTitle {
     position: absolute;
-    top: -20px; 
-    right: 10px;
-    background-color: Pink;
-    padding: 5px 10px;
+    top: 0px; 
+    right: 0px;
+    width: 120px; 
+    padding: 4px;
     font-size: 18px;
     font-weight: bold;
     border-radius: 3px;
+    margin: 0;
+    border: 1px solid #333;
+    text-align: center; 
+    white-space: nowrap; 
+    overflow: hidden; 
+}
 
+
+
+
+
+
+
+.Chicken {
+    background-color: pink;
+}
+.Beef {
+    background-color: red;
+}
+.Sushi {
+    background-color: yellow;
 }
 
 
