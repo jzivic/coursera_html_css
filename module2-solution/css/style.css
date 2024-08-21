@@ -1,6 +1,5 @@
 /* Default styles for mobile first approach (767px and below) */
 body {
-    /* Mobile styles go here */
     background-color: white;
     font-size: 14px;
 }
@@ -15,11 +14,8 @@ h1{
 div {
     background-color: rgb(186, 186, 186);
     margin-right: auto;
-
-    /* float: left; */
     clear: left;
     width: 50%;
-
 }
 
 .card {
@@ -30,10 +26,7 @@ div {
     margin: 10px ;
     box-shadow: 2px 2px 5px black;
     font-family: Arial, sans-serif;
-    /* width: 30%; */
-
 }
-
 
 
 .cardTitle {
@@ -54,10 +47,6 @@ div {
 
 
 
-
-
-
-
 .Chicken {
     background-color: pink;
 }
@@ -69,21 +58,18 @@ div {
 }
 
 
-/* Tablet view (768px to 991px) */
+/* Tablet view  */
 @media (min-width: 768px) and (max-width: 991px) {
     body {
-        /* Tablet styles go here */
         background-color: lightgreen;
         font-size: 16px;
     }
 }
 
-/* Desktop view (992px and above) */
+/* Desktop view  */
 @media (min-width: 992px) {
     body {
-        /* Desktop styles go here */
         background-color: white;
         font-size: 18px;
-        /* width: 30%; */
     }
 }
