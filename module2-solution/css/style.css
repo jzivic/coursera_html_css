@@ -72,4 +72,14 @@ div {
         background-color: white;
         font-size: 18px;
     }
+
+
+    
+    .card{
+        width: 100%; /* Two cards per row with gap */
+    }
+
+
+
+
 }
