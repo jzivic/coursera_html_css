@@ -18,6 +18,11 @@ div {
     width: 50%;
 }
 
+.menu {
+    overflow: hidden; /* Ensure the container clears floats */
+}
+
+
 .card {
     position: relative;
     padding: 30px;
@@ -26,6 +31,8 @@ div {
     margin: 10px ;
     box-shadow: 2px 2px 5px black;
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    flex: 1 1 100%; 
 }
 
 
@@ -73,11 +80,19 @@ div {
         font-size: 18px;
     }
 
+    .card:nth-child(1n+0) {
+        width: 48%;
+        display: inline-block;
 
-    
-    .card{
-        width: 100%; /* Two cards per row with gap */
     }
+
+    .card:nth-child(2n+0) {
+        width: 48%;
+        float: left;
+        display: inline-block;
+    }
+
+
 
 
 
