@@ -27,16 +27,12 @@ div {
     position: relative;
     padding: 30px;
     border: 2px solid #333;
-    /* width: fit-content; */
+    width: fit-content;
     margin: 10px ;
     box-shadow: 2px 2px 5px black;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
-    font-size: 18px;
-    display: inline-block; /* Allows the divs to sit next to each other */
-    vertical-align: top; /* Aligns the top of the divs */
-
-
+    flex: 1 1 100%; 
 }
 
 
@@ -72,29 +68,28 @@ div {
 /* Tablet view  */
 @media (min-width: 768px) and (max-width: 991px) {
     body {
+        background-color: lightgreen;
+        font-size: 16px;
+    }
+}
+
+/* Desktop view  */
+@media (min-width: 992px) {
+    body {
         background-color: white;
         font-size: 18px;
     }
 
     .card:nth-child(1n+0) {
-        width: 50vw;
+        width: 48%;
         display: inline-block;
-        background-color: black;
+
     }
 
     .card:nth-child(2n+0) {
-        width: 50vw;
+        width: 48%;
+        float: left;
         display: inline-block;
     }
-
-
-    .card:nth-child(3n+0) {
-        width:auto;
-    }
-
-}
-
-/* Desktop view  */
-@media (min-width: 992px) {
 
 }
