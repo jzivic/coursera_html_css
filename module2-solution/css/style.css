@@ -14,8 +14,7 @@ h1{
 div {
     background-color: rgb(186, 186, 186);
     margin-right: auto;
-    clear: left;
-    width: 50%;
+    /* clear: left; */
 }
 
 .menu {
@@ -27,7 +26,6 @@ div {
     position: relative;
     padding: 30px;
     border: 2px solid #333;
-    /* width: fit-content; */
     margin: 10px ;
     box-shadow: 2px 2px 5px black;
     font-family: Arial, sans-serif;
@@ -35,8 +33,6 @@ div {
     font-size: 18px;
     display: inline-block; /* Allows the divs to sit next to each other */
     vertical-align: top; /* Aligns the top of the divs */
-
-
 }
 
 
@@ -73,7 +69,7 @@ div {
 @media (min-width: 768px) and (max-width: 991px) {
     body {
         background-color: white;
-        font-size: 18px;
+        /* font-size: 18px; */
     }
 
     .card:nth-child(1n+0) {
@@ -96,5 +92,9 @@ div {
 
 /* Desktop view  */
 @media (min-width: 992px) {
+    .card {
+        width: 30vw;
+        display: inline-block;
+    }
 
 }
