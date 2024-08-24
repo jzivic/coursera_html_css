@@ -61,26 +61,15 @@ h1{
 
 
 /* Tablet view  */
-/* @media (min-width: 768px) and (max-width: 991px) { */
-@media (min-width: 992px) {
-
+@media (min-width: 768px) and (max-width: 991px) {
     .card:nth-child(1n+0) {
         display: inline-block;
         width: calc(50% - 22px);
-        
-        
     }
-
     .card:nth-child(3n+0) {
         width:auto;
     }
-
-} 
-
-
-
-
-
+}  
 
 /* Desktop view  */
 @media (min-width: 992px) {
