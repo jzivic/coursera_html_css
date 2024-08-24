@@ -10,13 +10,6 @@ h1{
     margin-bottom: 3em;
 }
 
-
-div {
-    background-color: rgb(186, 186, 186);
-    margin-right: auto;
-    /* clear: left; */
-}
-
 .menu {
     overflow: hidden; /* Ensure the container clears floats */
 }
@@ -27,12 +20,11 @@ div {
     padding: 30px;
     border: 2px solid #333;
     margin: 10px ;
+    background-color: rgb(211, 210, 210);
     box-shadow: 2px 2px 5px black;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
     font-size: 18px;
-    display: inline-block; /* Allows the divs to sit next to each other */
-    vertical-align: top; /* Aligns the top of the divs */
 }
 
 
@@ -65,30 +57,30 @@ div {
 }
 
 
+
+
+
 /* Tablet view  */
-@media (min-width: 768px) and (max-width: 991px) {
-    body {
-        background-color: white;
-        /* font-size: 18px; */
-    }
+/* @media (min-width: 768px) and (max-width: 991px) { */
+@media (min-width: 992px) {
 
     .card:nth-child(1n+0) {
-        width: 50vw;
         display: inline-block;
-        background-color: black;
+        width: calc(50% - 22px);
+        
+        
     }
-
-    .card:nth-child(2n+0) {
-        width: 50vw;
-        display: inline-block;
-    }
-
 
     .card:nth-child(3n+0) {
         width:auto;
     }
 
-}
+} 
+
+
+
+
+
 
 /* Desktop view  */
 @media (min-width: 992px) {
@@ -96,5 +88,4 @@ div {
         width: 30vw;
         display: inline-block;
     }
-
 }
